@@ -56,24 +56,3 @@ void printVector(const std::vector<int>& vec, const std::string& message){
     std::cout<<"\n";
 }
 
-int main() {
-    std::cout << "Brute Force Algorithm for Minimum Vertex Cover" << std::endl;
-
-    Graph myGraph(5);
-    myGraph.addEdge(0,1);
-    myGraph.addEdge(0,2);
-    myGraph.addEdge(1,3);
-    myGraph.addEdge(2,4);
-    myGraph.addEdge(3,4);
-
-    myGraph.printGraph();
-
-    recursiveMinVertexCover(0, myGraph.tempVertexCover, myGraph.minVertexCover, myGraph);
-
-    printVector(myGraph.minVertexCover, "\nFinal Minimum Cover: ");
-
-
-
-
-    return 0;
-}
