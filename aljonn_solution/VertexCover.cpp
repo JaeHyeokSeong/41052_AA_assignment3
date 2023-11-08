@@ -18,10 +18,8 @@ bool isValidVertexCover(const std::vector<int>& vertexCover, const Graph& graph)
         if(!vertex)
             return false;
     }
-
     //debugging
     printVector(vertexCover,"Valid Cover: ");
-
     return true;
 }
 
@@ -31,13 +29,11 @@ void recursiveMinVertexCover(int vertex, std::vector<int>& tempVertexCover, std:
     if(vertex == graph.getNumOfVertices()){
         if(isValidVertexCover(tempVertexCover, graph) && tempVertexCover.size() < minVertexCover.size()) {
                 minVertexCover = tempVertexCover;
-
                 //debugging
                 printVector(minVertexCover, "Update Minimum Cover: ");
         }
         return;
     }
-
     //create subsets: 1 with current vertex, and 1 without current vertex.
     tempVertexCover.push_back(vertex);
     //with current vertex

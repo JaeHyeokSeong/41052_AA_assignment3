@@ -210,7 +210,6 @@ TEST(MinimumVertexCover, MoreEdges3) {
 
 int main(int argc, char* argv[]) {
     std::cout << "Brute Force Algorithm for Minimum Vertex Cover" << std::endl;
-
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 
