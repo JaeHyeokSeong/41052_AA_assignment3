@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug"
+			"value" : "/Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug"
+			"value" : "/Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug"
 		},
 		{
 			"name" : "aljonn_solution_IS_TOP_LEVEL",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution"
+			"value" : "/Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution"
 		}
 	],
 	"kind" : "cache",

@@ -1,3 +1,12 @@
 # ninja log v5
+2	467	1699455706378747998	CMakeFiles/aljonn_solution.dir/Graph.cpp.o	cfc3760812666d1e
+1	52	1699451149156912661	build.ninja	cca8e4f118a6983b
 0	421	1697785600653231926	CMakeFiles/aljonn_solution.dir/main.cpp.o	9bf483b32f5eb75
-423	467	1697785600701917953	aljonn_solution	1730ab8970eead3c
+1	718	1699456099499391315	CMakeFiles/aljonn_solution.dir/VertexCover.cpp.o	ab11861cc92e8bef
+723	765	1699456099550365958	aljonn_solution	512c68b2e5b2d444
+1	609	1699456135523458177	CMakeFiles/aljonn_solution.dir/VertexCover.cpp.o	ab11861cc92e8bef
+609	641	1699456135556642433	aljonn_solution	512c68b2e5b2d444
+2	574	1699456150441337408	CMakeFiles/aljonn_solution.dir/VertexCover.cpp.o	ab11861cc92e8bef
+574	604	1699456150472643067	aljonn_solution	512c68b2e5b2d444
+1	605	1699456179784849571	CMakeFiles/aljonn_solution.dir/VertexCover.cpp.o	ab11861cc92e8bef
+607	637	1699456179818250538	aljonn_solution	512c68b2e5b2d444

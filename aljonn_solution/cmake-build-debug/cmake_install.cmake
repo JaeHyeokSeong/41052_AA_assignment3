@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution
+# Install script for directory: /Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/aljonnsantos/Desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
