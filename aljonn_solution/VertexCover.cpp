@@ -5,21 +5,21 @@
 #include "VertexCover.h"
 #include <iostream>
 
-
 bool isValidVertexCover(const std::vector<int>& vertexCover, const Graph& graph){
-    std::vector<bool> covered(graph.getNumOfVertices(), false);
+    std::vector<Graph::Edge> edges = graph.getEdgeList();
+    //set covered = true for the edges covered by the vertex.
     for(int vertex : vertexCover){
-        for(int neighbour : graph.getNeighbours(vertex)){
-            covered.at(neighbour) = true;
+        for(Graph::Edge& edge : edges){
+            if(edge.u == vertex || edge.v == vertex){
+                edge.covered = true;
+            }
         }
     }
-    //if there is an uncovered vertex, invalid vertex cover.
-    for(auto vertex : covered){
-        if(!vertex)
+    //check if there is an uncovered edge.
+    for(Graph::Edge edge : edges){
+        if (!edge.covered)
             return false;
     }
-    //debugging
-    printVector(vertexCover,"Valid Cover: ");
     return true;
 }
 
@@ -29,8 +29,6 @@ void recursiveMinVertexCover(int vertex, std::vector<int>& tempVertexCover, std:
     if(vertex == graph.getNumOfVertices()){
         if(isValidVertexCover(tempVertexCover, graph) && tempVertexCover.size() < minVertexCover.size()) {
                 minVertexCover = tempVertexCover;
-                //debugging
-                printVector(minVertexCover, "Update Minimum Cover: ");
         }
         return;
     }

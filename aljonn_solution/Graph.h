@@ -11,13 +11,14 @@
 #include <list>
 
 class Graph {
-private:
-    //adjacency list using unordered_map.
-    //keys and values are <vertex> : <neighbour, weight>
-    std::unordered_map<int, std::unordered_set<int> > adjList;
-    int numOfVertices;
 
 public:
+    struct Edge{
+        int v {};
+        int u {};
+        bool covered = false;
+    };
+
     explicit Graph(int numOfVertices);
     void addEdge(int i, int j);
     std::unordered_map<int, std::unordered_set<int> > getAdjList();
@@ -26,6 +27,14 @@ public:
     std::unordered_set<int> getNeighbours(int vertex) const;
     std::vector<int> tempVertexCover;
     std::vector<int> minVertexCover;
+    std::vector<Graph::Edge> getEdgeList() const;
+
+private:
+    std::unordered_map<int, std::unordered_set<int> > adjList;
+    int numOfVertices;
+    std::vector<Graph::Edge> edgeList;
+
+
 
 };
 

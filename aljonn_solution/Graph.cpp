@@ -7,7 +7,9 @@
 
 Graph::Graph(int numOfVertices){
     this->numOfVertices = numOfVertices;
-     minVertexCover.resize(numOfVertices);
+     for(int i = 0; i < numOfVertices; i++){
+         minVertexCover.push_back(i);
+     }
 }
 
 //adds edge from i to j, with weight.
@@ -16,14 +18,17 @@ void Graph::addEdge(int i, int j){
     if (i >= 0 && i < numOfVertices && j >= 0 && j < numOfVertices && i != j){
         adjList[i].insert(j);
         adjList[j].insert(i);
+        edgeList.push_back({i,j,false});
     }
-
 }
 
 std::unordered_set<int> Graph::getNeighbours(int vertex) const{
     return adjList.at(vertex);
 }
 
+std::vector<Graph::Edge> Graph::getEdgeList() const{
+    return edgeList;
+}
 
 std::unordered_map<int, std::unordered_set<int> > Graph::getAdjList() {
     return adjList;
