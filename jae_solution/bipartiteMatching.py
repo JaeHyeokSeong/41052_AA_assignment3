@@ -13,10 +13,10 @@ class BipartiteMatching:
 
     def __dfs(self, node: int) -> bool:
         for neighbor in self.graph.nodes[node]:
-            # 이미 처리한 노드는 더 이상 볼 필요가 없음
+            # There is no need to consider nodes that have already been processed
             if self.__visited[neighbor]:
                 continue
-            # 만약 처리 안된 노드는 True로 처리함
+            # If the nodes is not processed, it is treated as True
             self.__visited[neighbor] = True
             if self.__result[neighbor] == -1 or self.__dfs(self.__result[neighbor]):
                 self.__result[neighbor] = node
@@ -24,7 +24,7 @@ class BipartiteMatching:
         return False
 
     """
-    return size of the minimum vertex cover
+    Return size of the minimum vertex cover
     """
     def get_size_of_the_minimum_vertex_cover(self) -> int:
         size = 0
