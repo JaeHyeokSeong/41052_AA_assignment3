@@ -3,4 +3,4 @@ bin
 lib
 pyvenv.cfg
 .idea
-__pychace__
+__pycache__
