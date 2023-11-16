@@ -3,8 +3,12 @@
 
 <h1>Problem</h1>
 <ol>
-    <li>Find the size of the minimum vertex cover, which is the total number of nodes included in the minimum vertices</li>
-    <li>Draw and output the nodes included in the minimum vertex cover. For example, like this: 1->a, 2->b, 3->c, and so on.</li>
+    <li>Find the size of the minimum vertex cover, which is the total number of nodes included in the minimum vertices.</li>
+</ol>
+
+<h1>Problem Constraints</h1>
+<ol>
+    <li>If the total number of nodes is 3, then the possible values for nodes that can exist in the graph are limited to 0, 1, and 2.</li>
 </ol>
 
 <h1>References</h1>
