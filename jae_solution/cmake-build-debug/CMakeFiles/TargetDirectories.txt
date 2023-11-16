@@ -1,3 +1,0 @@
-/Users/jaehyeokseong/Desktop/41052_assignment3/jae_solution/cmake-build-debug/CMakeFiles/jae_solution.dir
-/Users/jaehyeokseong/Desktop/41052_assignment3/jae_solution/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jaehyeokseong/Desktop/41052_assignment3/jae_solution/cmake-build-debug/CMakeFiles/rebuild_cache.dir

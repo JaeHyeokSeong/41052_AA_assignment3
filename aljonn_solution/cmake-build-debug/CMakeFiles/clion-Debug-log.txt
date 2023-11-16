@@ -1,4 +1,6 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution -B /Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/aljonnsantos/desktop/41052_assignment3/41052_AA_assignment3/aljonn_solution/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/jaehyeokseong/Desktop/41052_assignment3/aljonn_solution -B /Users/jaehyeokseong/Desktop/41052_assignment3/aljonn_solution/cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.26 or higher is required.  You are running version 3.24.2
+
+
+-- Configuring incomplete, errors occurred!
